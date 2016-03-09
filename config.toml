@@ -1,0 +1,12 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "zh-cn"
+title = "heavenyes"
+paginate=8
+theme="crisp"
+
+[params]
+	description = "开心工作,快乐生活!"
+	email = "heavenyes@163.com"
+[permalinks]
+	post="/:year/:title/"
+	addendum="/addendum/:year/:title/"
